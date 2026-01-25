@@ -1,1 +1,3 @@
 # chess-kata
+
+Testing user
