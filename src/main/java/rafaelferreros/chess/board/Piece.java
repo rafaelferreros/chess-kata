@@ -7,7 +7,7 @@ import java.util.stream.*;
 public enum Piece {
     PAWN((byte) 1, '♙'),
     PAWN_INIT((byte) (1 + 10), '♙'),
-    PAWN_ADVANCED((byte) (1 + 11),'♙'),
+    PAWN_PASS((byte) (1 + 11), '♙'),
     KNIGHT((byte) 2, '♘'),
     BISHOP((byte) 3, '♗'),
     ROOK((byte) 4, '♖'),
@@ -18,7 +18,7 @@ public enum Piece {
 
     BLACK_PAWN((byte) -1, '♟'),
     BLACK_PAWN_INIT((byte) (-1 - 10), '♟'),
-    BLACK_PAWN_ADVANCED((byte) (-1 - 11), '♟'),
+    BLACK_PAWN_PASS((byte) (-1 - 11), '♟'),
     BLACK_KNIGHT((byte) -2, '♞'),
     BLACK_BISHOP((byte) -3, '♝'),
     BLACK_ROOK((byte) -4, '♜'),
